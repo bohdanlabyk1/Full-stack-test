@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "types": ["@types/stripe__stripe-js", "@stripe/stripe-js"],
+      "target": "ES6", 
+      "module": "ESNext", 
+      "jsx": "react-jsx",
+      "strict": true,
+      "moduleResolution": "node", 
+      "esModuleInterop": true,
+      "skipLibCheck": true, // Пропускає перевірку типів у бібліотеках
+      "forceConsistentCasingInFileNames": true // Регістрозалежні імена файлів
+    },
+    "include": ["src"], // Включає всі файли в папці src
+    "exclude": ["node_modules"] // Виключає node_modules
+  }
+  
