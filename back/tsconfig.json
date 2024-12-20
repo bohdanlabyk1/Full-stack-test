@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "compilerOptions": {
       "types": ["@types/stripe__stripe-js", "@stripe/stripe-js"],
       "target": "ES6", 
@@ -14,8 +13,7 @@
     "include": ["src"], // Включає всі файли в папці src
     "exclude": ["node_modules"] // Виключає node_modules
   }
-  
-=======
+  ,,,,,,
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,

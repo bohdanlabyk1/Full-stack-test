@@ -7,7 +7,7 @@ export class PaymentService {
 
   constructor() {
     this.stripe = new Stripe('YOUR_SECRET_KEY', {
-      apiVersion: '2022-11-15',
+      apiVersion: '2022-11-15'as Stripe.LatestApiVersion,
     });
   }
 
