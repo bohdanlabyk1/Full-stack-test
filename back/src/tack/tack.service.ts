@@ -9,8 +9,10 @@ import { User } from 'src/users/model.entity';
 export class TaskService {
   constructor(
     @InjectRepository(Task)
-    @InjectRepository(User) private userRepository: Repository<User>,
-    private taskRepository: Repository<Task>,
+    private readonly taskRepository: Repository<Task>,
+
+    @InjectRepository(User)
+    private readonly userRepository: Repository<User>,
   ) {}
 
   // Отримати всі задачі
